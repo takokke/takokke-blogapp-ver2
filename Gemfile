@@ -47,7 +47,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # sassが使えるようにするにはこれが必要。Rails7.1からGemfileにない
-# gem "sassc-rails"
+gem "sassc-rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -73,4 +73,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "dartsass-rails", "~> 0.5.0"
+# gem "dartsass-rails", "~> 0.5.0"
