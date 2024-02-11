@@ -1,4 +1,4 @@
-@import './variables';
+@use './variables';
 
 $heart-size: 16px;
 $avatar-size: 32px;
@@ -27,7 +27,7 @@ $avatar-size: 32px;
       margin-left: 8px;
       font-size: 12px;
       font-weight: bold;
-      color: $primary-color;
+      color: variables.$primary-color;
       line-height: $heart-size;
     }
   }
